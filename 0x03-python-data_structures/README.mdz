@@ -1,0 +1,57 @@
+Python Data Structures Project
+This project consists of a set of Python scripts and C functions aimed at practicing and mastering data structures in Python.
+
+General Information
+Python Scripts: The project includes Python scripts that perform various operations on lists and tuples.
+C Functions: Additionally, there is a C library that provides insights into the internals of Python lists.
+Getting Started
+Prerequisites
+Python 3.8.5
+GCC (for compiling C functions)
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+Compile the C library:
+
+bash
+Copy code
+gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.8 100-print_python_list_info.c
+Run the Python scripts:
+
+bash
+Copy code
+python3 script_name.py
+List of Tasks
+Print a list of integers: Prints all integers of a list.
+
+Secure access to an element in a list: Retrieves an element from a list with error handling.
+
+Replace element: Replaces an element of a list at a specific position.
+
+Print a list of integers in reverse: Prints all integers of a list in reverse order.
+
+Replace in a copy: Replaces an element in a list at a specific position without modifying the original list.
+
+Remove characters from a string: Removes all occurrences of 'c' and 'C' from a string.
+
+Lists of lists = Matrix: Prints a matrix of integers.
+
+Tuples addition: Adds two tuples.
+
+More returns!: Returns a tuple with the length of a string and its first character.
+
+Find the max: Finds the biggest integer in a list.
+
+Only by 2: Finds all multiples of 2 in a list.
+
+Delete at: Deletes the item at a specific position in a list.
+
+Switch: Switches the values of two variables.
+
+Linked list palindrome: Checks if a singly linked list is a palindrome.
+
+CPython #0: Python lists: Prints basic info about Python lists using C functions.
